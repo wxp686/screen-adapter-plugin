@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "exclude": ["node_modules"]
+}
