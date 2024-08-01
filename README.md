@@ -13,13 +13,12 @@
 > **当屏幕变化时：**  
 > ![请添加图片描述](https://i-blog.csdnimg.cn/direct/f24f43eed92747448fb96506b075de5b.gif#pic_center)
 
-> **当放大缩小时：**
-> ![请添加图片描述](https://i-blog.csdnimg.cn/direct/592d28967dc342bc9ae6d32f564ffcad.gif)
+> **当放大缩小时：** > ![请添加图片描述](https://i-blog.csdnimg.cn/direct/592d28967dc342bc9ae6d32f564ffcad.gif)
 
 **安装方法**
 
 ```
-npm i screen-adapter
+npm i screen-adapter-plugin
 ```
 
 **适配写法(推荐)：**
@@ -126,7 +125,7 @@ interface ScreenAdapter {
 
 
 // main.js
-import screenAdapter from 'screen-adapter'
+import screenAdapter from 'screen-adapter-plugin'
 
 Vue.use(screenAdapter, {rootValue: 192}) // 挂载screenAdapter类,传入跟px2rem插件一致的rootValue
 
