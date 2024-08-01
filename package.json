@@ -15,8 +15,13 @@
     "可视化屏幕适配",
     "screen adapter"
   ],
-  "author": "wxp",
-  "license": "ISC",
+  "author": "wxp <qwzxop68@163.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/wxp686/screen-adapter.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxp686/screen-adapter.git"
+  },
   "devDependencies": {
     "@babel/preset-env": "^7.24.8",
     "@rollup/plugin-babel": "^6.0.4",
